@@ -17,7 +17,8 @@ configuration. Check them before changing any component or wiring.
 
 ## Printable files
 
-All printable parts are in [`cad/`](cad/):
+All printable parts are in the easy-to-find root-level [`3MF-FILES/`](../3MF-FILES/)
+folder:
 
 | File | Part |
 | --- | --- |

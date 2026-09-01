@@ -35,6 +35,8 @@ Game Boy / Game Boy Color emulation, microSD storage, and a small app library.**
 
 The printable shell and button files, component list, and assembly notes are in
 [hardware/README.md](hardware/README.md).
+The printable files are also directly accessible in the root
+[3MF-FILES](3MF-FILES/) folder.
 
 ## CHRISCADE pinout
 
