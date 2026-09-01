@@ -1,0 +1,60 @@
+{
+  "last_generated": 273,
+  "baseline_note": "Historical minimum: 121 Gameboy builds, 76 Doom/test builds, 67 additional Doom UF2 images. Automatic emulator numbering begins at v265.",
+  "builds": [
+    {
+      "version": "v265",
+      "environment": "pico",
+      "utc": "2026-08-31T07:42:24.365285+00:00",
+      "sha256": "073e7e3f5c9ec267c66a125ed6b0c956a2bbd8e6cf145a6f5a07eb9a1c063128"
+    },
+    {
+      "version": "v266",
+      "environment": "pico",
+      "utc": "2026-08-31T07:57:48.534755+00:00",
+      "sha256": "10910d02df49b0080f68c8a1405abda95192c6b6210ed6db8ccee6786bd6453c"
+    },
+    {
+      "version": "v267",
+      "environment": "pico",
+      "utc": "2026-08-31T08:10:06.071527+00:00",
+      "sha256": "9a16c3b53294f5712dde0c7f54c0f15d2e3826454ceda20eeafa5bd63d1d62c9"
+    },
+    {
+      "version": "v268",
+      "environment": "pico",
+      "utc": "2026-08-31T08:32:33.397568+00:00",
+      "sha256": "b191a6835a813fedbdd0a5861ec6942fe874eab39990e172952f70993fc9b54e"
+    },
+    {
+      "version": "v269",
+      "environment": "pico",
+      "utc": "2026-08-31T08:41:34.822759+00:00",
+      "sha256": "e8ee3096ab685aa55f24d2ac169e524fda9a2d22c10c9ffece7dba31d8c0fa87"
+    },
+    {
+      "version": "v270",
+      "environment": "pico",
+      "utc": "2026-08-31T08:42:54.327354+00:00",
+      "sha256": "ec085648283098c2538027a2d95f2799baa1e5dfbb5a43390c957e23207e25a5"
+    },
+    {
+      "version": "v271",
+      "environment": "pico",
+      "utc": "2026-08-31T08:43:48.109389+00:00",
+      "sha256": "d4d0280d6efb04361e75ccbfaf5db7f7fbc7c8fcbaa99ae6d0668d98d65e48fd"
+    },
+    {
+      "version": "v272",
+      "environment": "pico",
+      "utc": "2026-08-31T08:56:24.932423+00:00",
+      "sha256": "fff856c4c5143a603e7d86f52095cecdbd73def2c80f47024593776aa750094a"
+    },
+    {
+      "version": "v273",
+      "environment": "pico",
+      "utc": "2026-08-31T09:03:52.430167+00:00",
+      "sha256": "af93c3cb33d0285fea5f48a77ae58479dddbb9598f866bdf4d14f1ba23ce3aad"
+    }
+  ]
+}
