@@ -1,5 +1,4 @@
 # CHRISCADE
-
 CHRISCADE is a custom, 3D-printed RP2040 handheld built around a Raspberry Pi
 Pico and a 320x240 ILI9341 touch display. It combines a Game Boy / Game Boy
 Color launcher with a colorful touch-first app library, designed as a personal
@@ -179,5 +178,8 @@ The SD card is used to store game roms and save game progress. For this project,
 * The emulator overclocks the Pico in order to get the emulator working fast enough. Overclocking can reduce the Pico’s lifespan.
 * Use this software and instructions at your own risk! I will not be responsible in any way for any damage to your Pico and/or connected peripherals caused by using this software. I also do not take responsibility in any way when damage is caused to the Pico or display due to incorrect wiring or voltages.
 
-# License
-MIT
+## License note
+
+This repository does not yet declare a separate project-wide license. The
+included upstream components retain their own license notices; review those
+before redistributing or reusing the code.
