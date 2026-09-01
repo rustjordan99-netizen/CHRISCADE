@@ -3,6 +3,13 @@
 **A custom RP2040 handheld console with a 3D-printed shell, touch-first UI,
 Game Boy / Game Boy Color emulation, microSD storage, and a small app library.**
 
+## Quick start
+
+Ready-to-flash firmware is in the clearly marked
+[FLASH-ME](FLASH-ME/) folder. Open it and use
+[`CHRISCADE_v273_FLASH_THIS.uf2`](FLASH-ME/CHRISCADE_v273_FLASH_THIS.uf2).
+The [3MF-FILES](3MF-FILES/) folder contains the printable enclosure parts.
+
 <p align="center">
   <img src="doc/gallery/pokemon-crystal.jpg" width="31%" alt="CHRISCADE running Pokémon Crystal">
   <img src="doc/gallery/drawing-app.jpg" width="31%" alt="CHRISCADE drawing app">
