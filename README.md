@@ -36,6 +36,30 @@ Game Boy / Game Boy Color emulation, microSD storage, and a small app library.**
 The printable shell and button files, component list, and assembly notes are in
 [hardware/README.md](hardware/README.md).
 
+## CHRISCADE pinout
+
+This is the active CrowPanel RP2040 configuration in `platformio.ini` and
+`src/common.h`:
+
+| Function | Pico GPIO / mapping |
+| --- | --- |
+| A / B buttons | GP0 / GP1 |
+| X / Y buttons | GP2 / GP3 |
+| Start / Select | GP4 / GP5 |
+| Low-power button | GP20 |
+| Joystick X / Y | GP26 / GP27 (analog) |
+| Speaker audio | GP19 (PWM) |
+| Volume potentiometer | GP28 (analog) |
+| TFT SCLK / MOSI / MISO | GP10 / GP11 / GP12 |
+| TFT CS / DC / RST / backlight | GP9 / GP8 / GP15 / GP18 |
+| Touch controller CS | GP16 |
+| microSD CS | GP22 |
+
+The TFT, touch controller, and microSD share the SPI1 bus on GP10–GP12 and
+use separate chip-select lines. The six directional controls are handled by
+the CrowPanel input mapping in firmware; the joystick supplies the analog
+direction input. Verify the board revision and wiring before connecting power.
+
 ## Build
 
 Install PlatformIO, then build the `pico` environment:
